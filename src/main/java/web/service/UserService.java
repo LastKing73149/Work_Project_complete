@@ -12,7 +12,6 @@ public interface UserService {
 
     User getUserById(Long id);
 
-    @Transactional
     void updateUser(Long id, User updatedUser);
 
     void deleteUser(Long id);
